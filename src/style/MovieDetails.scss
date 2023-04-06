@@ -1,0 +1,105 @@
+#details {
+  -webkit-box-shadow: 0 5px 100px 600px rgba(0, 0, 0, 0.78) inset;
+  -moz-box-shadow: 0 5px 100px 600px rgba(0, 0, 0, 0.78) inset;
+  box-shadow: 0 5px 10px 600px rgba(0, 0, 0, 0.75) inset;
+  padding: 60px 0;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  min-height: 70vh;
+  .details{
+    display: flex;
+    align-items: flex-start;
+    &--img {
+      img {
+        margin-right: 45px  ;
+        border-radius: 15px;
+        width: 350px;
+      }
+    }
+    &--info {
+      color: white;
+      width: 65%;
+      &__name {
+        display: flex;
+        align-items: center;
+        span {
+          font-size: 30px;
+          padding-left: 8px  ;
+          opacity: 0.8;
+        }
+      }
+      &__data {
+        display: flex;
+        align-items: center;
+        h5 {
+          color: white;
+          font-size: 18px ;
+          font-weight: 400;
+        }
+        .div {
+          margin: 0  20px;
+          width: 5px;
+          height: 5px;
+          background-color: white;
+          border-radius: 50%;
+        }
+        h3 {
+          padding: 0 10px 0 0;
+          font-size: 17px;
+          font-weight: 400;
+        }
+        h4 {
+          font-weight: 400;
+
+        }
+      }
+      &__rating {
+        margin: 20px 0;
+        display: flex;
+        align-items: center;
+        h4 {
+          margin-top: 10px;
+          border: 5px solid rgba(33,208,122,0.81) ;
+          width: 60px;
+          height: 60px;
+          border-radius: 100%;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          font-size: 22px;
+          background: rgb(8, 28, 34);
+          transition: .5s ease-in-out;
+          cursor: pointer;
+          &:hover {
+            transform: scale(1.2);
+          }
+          sup {
+            font-size: 9px;
+            padding-bottom: 10px;
+          }
+        }
+        h3 {
+          margin: 10px  ;
+          font-size: 17px;
+          font-weight: 650;
+        }
+      }
+      h6 {
+        margin: 15px 0;
+        font-size: 20px;
+        opacity: 0.7;
+        font-weight: 600;
+      }
+      h1 {
+        margin-bottom: 8px;
+        font-size: 24px;
+        font-weight: 600;
+      }
+      p {
+        //width: 800px;
+        font-size:  16px;
+      }
+    }
+  }
+}

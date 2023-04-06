@@ -1,0 +1,103 @@
+
+
+#header {
+  position: sticky;
+  top: 0;
+  width: 100%;
+  z-index: 90;
+  padding: 10px 0;
+  background: rgba(161, 157, 157, 0.86);
+  backdrop-filter: blur(2px);
+  .header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    img {
+      width: 150px;
+      border-radius: 10px;
+    }
+    &--nav {
+      .active {
+        color: black;
+      }
+      &__link {
+        font-weight: normal;
+        //padding: 5px 10px;
+        color: white;
+        font-size: 20px ;
+        margin: 0 20px 0 0;
+      }
+    }
+    &--btn {
+      select {
+        padding: 8px 14px;
+        border-radius: 8px;
+        font-size: 15px;
+        font-weight: normal;
+        outline: none;
+      }
+      input {
+        width: 240px;
+        height: 40px;
+        border-radius: 25px;
+        color: black;
+        font-weight: revert;
+        font-size: 16px;
+        padding: 0 20px;
+        outline: none;
+      }
+      button {
+        position: relative;
+        right:55px;
+        bottom: 1px;
+        width: 80px;
+        height: 40px;
+        margin: 0 10px;
+        border-radius: 25px ;
+        color: white;
+        background: deepskyblue;
+        font-size: 14px;
+        cursor: pointer;
+        transition: .5s ease-in-out;
+        outline: none;
+        &:hover {
+          color: rgba(0, 0, 0, 0.87);
+        }
+      }
+    }
+    &--navigation {
+      display: flex;
+      align-items: center;
+      justify-content: left;
+      width: 70px ;
+      border-radius: 30px;
+      height: 30px;
+      background: black;
+      &__black {
+        //color: black;
+        //background: black;
+        //width: 30px;
+        //height: 30px;
+        //border-radius: 50%;
+        background: white;
+        height: 20px;
+        width: 20px;
+        border-radius: 50%;
+        margin-left: 6px;
+        transition: 1s ease-in-out;
+      }
+      &__white {
+        position: relative;
+        left: 19px;
+        background: transparent;
+        height: 20px;
+        width: 20px;
+
+        border-radius: 50%;
+        //z-index:  99;
+        transition: 1s ease-in-out;
+      }
+    }
+  }
+}
+

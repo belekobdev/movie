@@ -1,0 +1,20 @@
+#PersonMovie {
+  padding: 40px 0;
+  .PersonMovie {
+    margin: 40px 0;
+    display: flex;
+    overflow-x: auto;
+    &--card {
+      img {
+        border-radius: 7px;
+        margin: 0 15px 0 0;
+        width: 150px;
+      }
+      h4 {
+        text-align: left;
+        font-size: 16px;
+        color: black;
+      }
+    }
+  }
+}

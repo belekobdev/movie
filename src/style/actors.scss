@@ -1,0 +1,20 @@
+#actors {
+  padding: 80px 0;
+  background: white;
+  color: black;
+  h1 {
+    padding-bottom: 20px;
+  }
+  .actors {
+    text-align: left;
+    &--card {
+      img {
+        border-radius: 7px;
+      }
+      h4 {
+        color: black;
+        font-weight: bold;
+      }
+    }
+  }
+}
